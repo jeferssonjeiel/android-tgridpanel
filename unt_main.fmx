@@ -1,0 +1,38 @@
+object frm_app: Tfrm_app
+  Left = 0
+  Top = 0
+  ClientHeight = 630
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 360.000000000000000000
+    Size.Height = 630.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 248
+    Top = 184
+  end
+end
